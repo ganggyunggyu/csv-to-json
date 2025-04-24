@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pyright / pylance
+pyrightconfig.json
+
+# Pytest
+.cache
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac system files
+.DS_Store
+
+# CSV, JSON, Excel - optional (개발 중 생성되는 경우 무시)
+*.csv
+*.tsv
+*.json
+*.xls
+*.xlsx
+
+# Logs
+*.log
+
+# SQLite
+*.sqlite
+*.db
+
+# 기타
+*.bak
+*.tmp
+
+
+# 결과물 CSV, JSON 자동 생성된 파일 무시
+*.csv
+*.json
+
+# pip 설치 스크립트
+get-pip.py
+
+# 테스트 파일 무시 (원하는 경우만)
+test-data.xml
+test_stata.dta
+
+# macOS에서 생기는 숨김파일
+.DS_Store
+
+.hypothesis/
